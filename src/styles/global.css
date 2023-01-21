@@ -1,0 +1,52 @@
+:root {
+  --gray100: #f2f2f2;
+  --gray200: #d9d9d9;
+  --gray300: #808080;
+  --gray400: #333333;
+  --gray500: #262626;
+  --gray600: #1a1a1a;
+  --gray700: #0d0d0d;
+  --purple: #8284fa;
+  --purple-dark: #5e60ce;
+  --blue: #4ea8de;
+  --blue-dark: #1e6f9f;
+  --danger: #e25858;
+
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--gray100);
+  background-color: var(--gray600);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+input {
+  background-color: var(--gray300);
+  color: var(--gray100);
+}
+input::placeholder {
+  color: var(--gray100);
+  font-weight: bold;
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+}
