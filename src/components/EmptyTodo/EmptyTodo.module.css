@@ -1,3 +1,4 @@
+
 .wrapperTodoList {
   margin-top: 60px;
   display: flex;
@@ -9,10 +10,20 @@
   border-radius: 8px;
   padding: 64px 0;
 }
+
+@media (max-width: 768px) {
+  .wrapperTodoList {
+    margin-top: 40px;
+    padding: 40px 20px;
+    gap: 12px;
+  }
+}
+
 .todoListEmpty {
-  font-size: 16;
+  font-size: 16px;
   color: var(--gray300);
 }
+
 .todoListEmpty p {
   font-weight: bold;
 }
