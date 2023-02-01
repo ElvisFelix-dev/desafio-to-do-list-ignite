@@ -44,6 +44,25 @@
 }
 
 @media screen and (max-width: 768px) {
+  .wrapperAddTodo {
+    max-width: 100%;
+    height: auto;
+    margin: 8px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .formAddTodo {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .formAddTodo input {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
 
   .wrapperAddTodo {
     width: 56px;
