@@ -72,4 +72,25 @@
 }
 
 @media (max-width: 768px) {
+  .wrapperTodo {
+    max-width: 100%;
+  }
+
+  .wrapperListTodo {
+    flex-direction: column;
+    height: auto;
+    padding: 16px;
+  }
+
+  .wrapperText {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .wrapperInput, .wrapperTrash {
+    margin-top: 12px;
+    margin-right: 0;
+    margin-left: auto;
+  }
 }
+
