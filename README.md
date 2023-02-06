@@ -8,7 +8,7 @@
 
   <p align="center">
     <br />
-    <a href="https://ignitetodo-list.vercel.app/dashboard">Demo do projeto</a>
+    <a href="https:/ignitetodo-list.vercel.app/dashboard">Demo do projeto</a>
   </p>
 </div>
 
