@@ -14,13 +14,13 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
-
+<br />
 <!--[![Screen Shot][product-screenshot]](/mobile.png)
 [![Screen Shot][product-screenshot]](/pc.png)-->
 <div align="center">
-  <img src="pc.png" alt="Logo" width="873" height="501">
+  <img src="pc.png" alt="Logo" width="873" height="501"><br />
+  <br />
   <img src="mobile.png" alt="Logo" width="280" height="567">
 </div>
 <br />
