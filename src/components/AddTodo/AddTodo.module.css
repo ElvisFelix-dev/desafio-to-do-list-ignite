@@ -43,59 +43,32 @@
   background-color: var(--blue);
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .wrapperAddTodo {
-    max-width: 100%;
+    grid-template-columns: 1fr;
     height: auto;
-    margin: 8px;
-    grid-template-columns: 1fr;
-    justify-content: center;
+    margin-top: 0;
+    text-align: center;
+
+    margin: 10px;
   }
   .formAddTodo {
     grid-template-columns: 1fr;
-    width: 100%;
   }
+
   .formAddTodo input {
-    width: 100%;
-  }
-}
-
-
-
-@media screen and (max-width: 768px) {
-
-  .wrapperAddTodo {
-    width: 56px;
-
-    margin: 8px;
+    height: 1rem;
+    margin-right: 16px;
   }
 
-  .input {
-    background-color: var(--gray500);
-    border-radius: 8px;
-  }
-
-  .formAddTodo {
-    display: grid;
-    grid-template-columns: 192px 1fr;
-    gap: 4px;
-    padding: 16px;
-    align-items: center;
-    color: var(--gray300);
-
-    width: 50px;
+  .formAddTodo button {
+    padding-top: 1rem;
   }
 
   .button {
-    background-color: var(--blue-dark);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    transition: background-color 1s;
-  }
-  .button:hover {
-    background-color: var(--blue);
+    height: 54px;
+
+    margin-top: 15px;
   }
 }
+

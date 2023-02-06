@@ -19,6 +19,7 @@ export function ContadorTodos({
             <span className={styles.count}>{quantityTodos}</span>
           </div>
         </div>
+        <br/>
         <div className={styles.todoConcluida}>
           <span className={styles.textConcluida}>Concluídas</span>
           <div className={styles.wrapperCount}>
