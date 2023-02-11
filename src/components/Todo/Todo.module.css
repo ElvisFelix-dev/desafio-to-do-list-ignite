@@ -21,6 +21,7 @@
   border-radius: 8px;
   padding: 16px 16px 16px 16px;
 }
+
 .wrapperInput {
   display: flex;
   align-items: center;
@@ -30,6 +31,7 @@
   width: 24px;
   margin-right: 12px;
 }
+
 .checkboxRound {
   width: 20px;
   height: 20px;
@@ -39,14 +41,17 @@
   -webkit-appearance: none;
   cursor: pointer;
 }
+
 .checkboxRound:hover {
   border: 2px solid var(--blue-dark);
   background-color: var(--gray400);
 }
+
 .checkboxRound:checked {
   background-color: var(--purple-dark);
   border: none;
 }
+
 .checkboxRound:checked:hover {
   background-color: var(--purple);
 }
@@ -56,6 +61,7 @@
   color: var(--gray100);
   font-weight: normal;
 }
+
 .wrapperTrash {
   height: 24px;
   width: 24px;
@@ -65,6 +71,7 @@
   margin-left: 12px;
   color: var(--gray300);
 }
+
 .wrapperTrash:hover {
   color: var(--danger);
   background-color: var(--gray400);
@@ -74,11 +81,15 @@
 @media (max-width: 768px) {
   .wrapperTodo {
     max-width: 100%;
+    padding: 5px;
+
+    position: relative;
+    bottom: 7rem;
   }
 
   .wrapperListTodo {
     flex-direction: column;
-    height: auto;
+    height: 7rem;
     padding: 16px;
   }
 

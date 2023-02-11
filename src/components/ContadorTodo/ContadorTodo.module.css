@@ -10,10 +10,13 @@
   gap: 8px;
 }
 .todoConcluida {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 8px;
+
+  bottom: 25px;
 }
 .textCriada {
   color: var(--blue);
@@ -46,6 +49,10 @@
   }
   .todoCriada, .todoConcluida {
     justify-content: center;
+  }
+
+  .todoConcluida {
+    margin: 15px;
   }
 }
 
