@@ -8,7 +8,7 @@
 
   <p align="center">
     <br />
-    <a href="https://ignitetodo-list.vercel.app/dashboard">Demo do projeto</a>
+    <a href="https:/ignitetodo-list.vercel.app/dashboard">Demo do projeto</a>
   </p>
 </div>
 
@@ -47,7 +47,7 @@ Sobre o aplicativo:
 
 1. Clonar o repo
    ```sh
-   git clone https://github.com//ElvisFelix-dev/desafio-to-do-list-ignite.git
+   git clone https://github.com/ElvisFelix-dev/desafio-to-do-list-ignite.git
    ```
 2. Abra a pasta
    ```sh
